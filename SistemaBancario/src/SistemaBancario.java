@@ -107,9 +107,9 @@ public class SistemaBancario {
                     // Validação de E-MAIL duplicado
                     boolean emailExistente = false;
 
-                    for(int contador = 0; contador < emails.length; contador++){
+                    for(int verificarEmailExistente = 0; verificarEmailExistente < emails.length; verificarEmailExistente++){
 
-                        if(emails[contador] != null && emails[contador].equalsIgnoreCase(emailNovo)){
+                        if(emails[verificarEmailExistente] != null && emails[verificarEmailExistente].equalsIgnoreCase(emailNovo)){
 
                             emailExistente = true;
                             break;
